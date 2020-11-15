@@ -4,8 +4,8 @@
                       http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
 
-  <groupId>org.hotelmanagement</groupId>
-  <artifactId>hotelmanagement</artifactId>
+  <groupId>com.airlinereservation</groupId>
+  <artifactId>airlinereservation</artifactId>
   <version>1.0</version>
 
   <packaging>war</packaging>
@@ -91,18 +91,4 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
-
-  <distributionManagement>
-	    <repository>
-    <id>releases</id>
-    <name>Releases</name>
-    <url>http://52.66.199.40:8081/nexus/content/repositories/releases/</url>
-    </repository>
-
-    <snapshotRepository>
-    <id>snapshots</id>
-    <name>Snapshots</name>
-    <url>http://52.66.199.40:8081/nexus/content/repositories/snapshots/</url>
-    </snapshotRepository>
- </distributionManagement>
-</project>
+  </project>
