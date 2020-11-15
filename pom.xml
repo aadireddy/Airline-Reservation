@@ -2,6 +2,10 @@
 <!-- You may freely edit this file. See commented blocks below for -->
 <!-- some examples of how to customize the build. -->
 <!-- (If you delete it and reopen the project it will be recreated.) -->
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.airlines</groupId>
+  <artifactId>airlines</artifactId>
+  <version>1.0</version>
 <project name="airlines" default="default" basedir=".">
     <description>Builds, tests, and runs the project airlines.</description>
     <import file="nbproject/build-impl.xml"/>
